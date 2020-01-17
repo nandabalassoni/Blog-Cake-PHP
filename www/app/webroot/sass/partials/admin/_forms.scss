@@ -1,0 +1,25 @@
+label.prazo {
+	margin-right: 15px;
+}
+h2{
+	margin-top: 0 !important;
+}
+
+.form-group.required {
+	label:after {
+		content: " *";
+	}
+}
+
+p.aviso.alert {
+  font-style: italic;
+  color: $gray-light;
+}
+.alinharcheckbox{padding-left: 15px;}
+
+.checkbox-users{
+	margin-left: 17.5%;
+	font-weight: normal;
+	padding-bottom: 21px;
+}
+.acessar-users{margin-left: 19.5%;}

@@ -1,0 +1,56 @@
+.week-day-0,
+.week-day-6 {
+	background: $gray-lighter !important;
+	color: #777;
+}
+.month-day-1 {
+	border-left: 3px solid #ccc !important;
+}
+
+.today {
+	// background: lighten($brand-info, 32%) !important;
+}
+
+.evento {
+	border-radius: 4px;
+	font-size: 14px;
+	padding: 4px;
+	margin-bottom: 2px;
+	margin-top: 2px;
+
+	&.aprovado {
+		background: lighten($brand-success, 25%);
+
+		.titulo > .glyphicon:before {
+			content: "\e013";
+		}
+	}
+	&.waiting {
+		background: lighten($brand-warning, 25%);
+
+		.titulo > .glyphicon:before {
+			content: "\2a";
+		}
+	}
+	&.cancelado {
+		background: lighten($brand-danger, 25%);
+
+		.titulo > .glyphicon:before {
+			content:"\e014";
+		}
+	}
+
+	.motivo,
+	.hora,
+	.ver-detalhes {
+		font-size: 12px;
+	}
+}
+
+.info-sala-popover {
+	cursor: pointer;
+}
+
+#datepicker-data-ws {
+  width: 200px;
+}
