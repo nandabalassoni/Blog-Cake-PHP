@@ -1,3 +1,5 @@
+<?php echo $this->Html->link('Add Post', array('controller' => 'posts', 'action' => 'add')); ?>
+
 <h1>Posts do Blog</h1>
 <table>
     <tr>
